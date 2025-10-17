@@ -1,0 +1,128 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h6 {
+  color: #a4a4a4;
+  font-size: 2rch;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+header {
+  background-color: #949191;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: MV Boli;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  font-family: Comic Sans MS;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(246, 136, 11);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 30px 0;
+}
+
+.content-section {
+  width: 90%;
+  max-width: 900px;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Comic Sans MS;
+  border-radius: 10px;
+}
+
+.content-section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: MV Boli;
+  color: #333;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#myphoto {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+footer {
+  background-color: #949191; 
+  color: #fff; 
+  text-align: center;
+  border-top: 2px solid #333;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: rgb(246, 136, 11);
+}
+
+ul li {
+  margin: 5px 0;
+  color: #555;
+}
+
+p {
+  color: #333;
+}
